@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Formular';
+    font-weight: 400;
+    font-style: normal;
+    src: url('./Formular/Formular.eot');
+    src: url('./Formular/Formular.eot') format('embedded-opentype'),
+         url('./Formular/Formular.woff2') format('woff2'),
+         url('./Formular/Formular.woff') format('woff'),
+         url('./Formular/Formular.ttf') format('truetype'),
+         url('./Formular/Formular.svg#Formular') format('svg');
+}
+
+@font-face {
+    font-family: 'Formular';
+    font-weight: 700;
+    font-style: normal;
+    src: url('./Formular/FormularBold.eot');
+    src: url('./Formular/FormularBold.eot') format('embedded-opentype'),
+         url('./Formular/FormularBold.woff2') format('woff2'),
+         url('./Formular/FormularBold.woff') format('woff'),
+         url('./Formular/FormularBold.ttf') format('truetype'),
+         url('./Formular/FormularBold.svg#FormularBold') format('svg');
+}
+
+@font-face {
+    font-family: Right Grotesk;
+    font-weight: 900;
+    font-style: normal;
+    src: url('./RightGrotesk/RightGroteskCompactBlack.otf');
+}
+
+@font-face {
+    font-family: 'Messina Sans';
+    font-weight: 400;
+    font-style: normal;
+    src: url('./MessinaSans/MessinaSansMonoRegular.eot');
+    src: url('./MessinaSans/MessinaSansMonoRegular.eot') format('embedded-opentype'),
+         url('./MessinaSans/MessinaSansMonoRegular.woff2') format('woff2'),
+         url('./MessinaSans/MessinaSansMonoRegular.woff') format('woff'),
+         url('./MessinaSans/MessinaSansMonoRegular.ttf') format('truetype'),
+         url('./MessinaSans/MessinaSansMonoRegular.svg#MessinaSansMonoRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'Messina Sans';
+    font-weight: 600;
+    font-style: normal;
+    src: url('./MessinaSans/MessinaSansMonoSemiBold.eot');
+    src: url('./MessinaSans/MessinaSansMonoSemiBold.eot') format('embedded-opentype'),
+         url('./MessinaSans/MessinaSansMonoSemiBold.woff2') format('woff2'),
+         url('./MessinaSans/MessinaSansMonoSemiBold.woff') format('woff'),
+         url('./MessinaSans/MessinaSansMonoSemiBold.ttf') format('truetype'),
+         url('./MessinaSans/MessinaSansMonoSemiBold.svg#MessinaSansMonoSemiBold') format('svg');
+}
+
+@font-face {
+    font-family: 'Biro Script';
+    font-weight: 700;
+    font-style: normal;
+    src: url('./BiroScript/BiroScriptPlusBold.eot');
+    src: url('./BiroScript/BiroScriptPlusBold.eot') format('embedded-opentype'),
+         url('./BiroScript/BiroScriptPlusBold.woff2') format('woff2'),
+         url('./BiroScript/BiroScriptPlusBold.woff') format('woff'),
+         url('./BiroScript/BiroScriptPlusBold.ttf') format('truetype'),
+         url('./BiroScript/BiroScriptPlusBold.svg#BiroScriptPlusBold') format('svg');
+}
+
+@font-face {
+    font-family: 'Biro Script US';
+    font-weight: 700;
+    font-style: normal;
+    src: url('./BiroScript/BiroScriptUSPlusBold.eot');
+    src: url('./BiroScript/BiroScriptUSPlusBold.eot') format('embedded-opentype'),
+         url('./BiroScript/BiroScriptUSPlusBold.woff2') format('woff2'),
+         url('./BiroScript/BiroScriptUSPlusBold.woff') format('woff'),
+         url('./BiroScript/BiroScriptUSPlusBold.ttf') format('truetype'),
+         url('./BiroScript/BiroScriptUSPlusBold.svg#BiroScriptUSPlusBold') format('svg');
+}
