@@ -2,11 +2,20 @@ import styled from '@emotion/styled';
 import PALLETTE from '../../helpers/pallette.js';
 import Button from '../Button/Button.js';
 
-export const HeroCard = styled.section`
+export const Wrapper = styled.section`
+  padding-left: 8px;
+  padding-right: 8px;
+`;
+
+export const Container = styled.div`
+  max-width: 216px;
+`;
+
+export const HeroCard = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 344px;
+  max-width: 470px;
   width: 100%;
   min-width: 320px;
   height: 542px;
@@ -56,7 +65,6 @@ export const HeroBtn = styled(Button)`
 `;
 
 export const HeroDescr = styled.p`
-  max-width: 217px;
   margin-top: 8px;
 
   font-family: 'Messina Sans';

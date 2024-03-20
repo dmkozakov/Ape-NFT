@@ -1,4 +1,4 @@
-@import 'node_modules/modern-normalize/modern-normalize.css';
+@import '../node_modules/modern-normalize//modern-normalize.css';
 @import './fonts/fonts.css';
 
 :root {
@@ -46,7 +46,3 @@ img {
   max-width: 100%;
 }
 
-.container {
-  margin: 0 auto;
-  padding: 54px 8px 24px;
-}

@@ -1,7 +1,8 @@
-import { ReactNode } from "react";
+import { ReactNode } from 'react';
 
 export interface ITextProps {
   children: ReactNode;
+  display?: string;
   fs?: string;
   fw?: string;
   lh?: string;

@@ -3,6 +3,8 @@ import { MainTextProps } from './MainText';
 import PALLETTE from '../../helpers/pallette';
 
 export const Text = styled.p`
+  display: ${(props: MainTextProps) => props.display};
+
   font-family: 'Messina Sans';
   font-size: ${(props: MainTextProps) => props.fs || '16px'};
   font-weight: ${(props: MainTextProps) => props.fw || '400'};
@@ -15,5 +17,3 @@ export const Text = styled.p`
 
   text-transform: uppercase;
 `;
-
-

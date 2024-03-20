@@ -16,5 +16,22 @@ export const StyledButton = styled.button`
   border-radius: 8px;
   border: none;
   backdrop-filter: blur(12px);
+  cursor: pointer;
+
+  color: ${PALLETTE.textDarkMain};
   background: ${PALLETTE.bgBtn};
+
+  transition: color 250ms ease-in-out;
+
+  & > span {
+    transition: color 250ms ease-in-out;
+  }
+
+  &:hover {
+    color: ${PALLETTE.textLightMain};
+
+    & > span {
+      color: ${PALLETTE.textLightMain};
+    }
+  }
 `;
