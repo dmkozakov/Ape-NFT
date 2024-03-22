@@ -1,5 +1,5 @@
-import AccentText from '../AccentText/AccentText';
-import MainText from '../MainText/MainText';
+import AccentText from '../common/AccentText/AccentText';
+import MainText from '../common/MainText/MainText';
 import * as S from './Mindcard.styled';
 
 interface Props {
