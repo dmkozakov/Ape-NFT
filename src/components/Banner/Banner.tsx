@@ -1,5 +1,5 @@
 import Marquee from 'react-double-marquee';
-import AccentText from '../AccentText/AccentText';
+import AccentText from '../common/AccentText/AccentText';
 import * as S from './Banner.styled';
 
 function Banner() {
