@@ -1,7 +1,7 @@
 import PALLETTE from '../../helpers/pallette';
-import AccentText from '../AccentText/AccentText';
-import MainText from '../MainText/MainText';
-import Image from '../Image/Image';
+import AccentText from '../common/AccentText/AccentText';
+import MainText from '../common/MainText/MainText';
+import Image from '../common/Image/Image';
 import * as S from './About.styled';
 
 import IconCross from '../../assets/icons/cross.svg?react';

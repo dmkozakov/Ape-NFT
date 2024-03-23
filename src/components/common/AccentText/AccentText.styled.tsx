@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import PALLETTE from '../../helpers/pallette';
+import PALLETTE from '../../../helpers/pallette';
 import { AccentTextProps } from './AccentText';
 
 export const Text = styled.p`
@@ -16,4 +16,6 @@ export const Text = styled.p`
   color: ${(props: AccentTextProps) => props.color || PALLETTE.textLightMain};
 
   text-transform: uppercase;
+
+  transition: color 250ms linear;
 `;

@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
-import Icon from '../../assets/icons/up-left-arrow.svg?react';
-import PALLETTE from '../../helpers/pallette';
+import Icon from '../../../assets/icons/up-left-arrow.svg?react';
+import PALLETTE from '../../../helpers/pallette';
 
 export const Section = styled.section`
   padding-top: 60px;

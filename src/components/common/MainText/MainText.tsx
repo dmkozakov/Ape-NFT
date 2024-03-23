@@ -1,5 +1,5 @@
 import { Text } from './MainText.styled';
-import { ITextProps } from '../../interfaces/ITextPops';
+import { ITextProps } from '../../../interfaces/ITextPops';
 
 export type MainTextProps = ITextProps & {
   el?: 'p' | 'span';

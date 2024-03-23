@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import PALLETTE from '../../helpers/pallette';
+import PALLETTE from '../../../helpers/pallette';
 
 export const Card = styled.div`
   display: flex;
@@ -9,6 +9,7 @@ export const Card = styled.div`
   width: 216px;
   height: 242px;
 
+  margin-left: 1px;
   padding: 24px 12px;
 
   border-radius: 12px;

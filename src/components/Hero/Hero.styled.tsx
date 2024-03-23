@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import PALLETTE from '../../helpers/pallette.js';
-import Button from '../Button/Button.js';
+import Button from '../common/Button/Button.js';
 
 export const Wrapper = styled.section`
   padding-left: 8px;

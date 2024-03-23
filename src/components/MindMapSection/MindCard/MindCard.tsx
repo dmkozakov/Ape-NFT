@@ -1,6 +1,6 @@
-import AccentText from '../common/AccentText/AccentText';
-import MainText from '../common/MainText/MainText';
-import * as S from './Mindcard.styled';
+import AccentText from '../../common/AccentText/AccentText';
+import MainText from '../../common/MainText/MainText';
+import * as S from './MindCard.styled';
 
 interface Props {
   title: string;

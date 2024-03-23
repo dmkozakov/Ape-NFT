@@ -1,7 +1,7 @@
-import mindCardContent from '../../helpers/mindCardContent';
-import AccentText from '../common/AccentText/AccentText';
+import mindCardContent from '../../../helpers/mindCardContent';
+import AccentText from '../../common/AccentText/AccentText';
 import MindCard from '../MindCard/MindCard';
-import SimpleSlider from '../common/Slider/Slider';
+import SimpleSlider from '../../common/Slider/Slider';
 import * as S from './MindMap.styled';
 
 import LearnMoreCard from '../LearnMoreCard/LearnMoreCard';

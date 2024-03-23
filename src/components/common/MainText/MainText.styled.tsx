@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import { MainTextProps } from './MainText';
-import PALLETTE from '../../helpers/pallette';
+import PALLETTE from '../../../helpers/pallette';
 
 export const Text = styled.p`
   display: ${(props: MainTextProps) => props.display};
@@ -16,4 +16,6 @@ export const Text = styled.p`
   color: ${(props: MainTextProps) => props.color || PALLETTE.textLightMain};
 
   text-transform: uppercase;
+
+  transition: color 250ms linear;
 `;

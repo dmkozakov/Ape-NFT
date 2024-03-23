@@ -1,5 +1,5 @@
 import { Text } from './AccentText.styled';
-import { ITextProps } from '../../interfaces/ITextPops';
+import { ITextProps } from '../../../interfaces/ITextPops';
 
 type Elements = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'p' | 'span';
 

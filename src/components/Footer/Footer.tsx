@@ -1,4 +1,4 @@
-import MainText from '../MainText/MainText';
+import MainText from '../common/MainText/MainText';
 import * as S from './Footer.styled';
 
 function Footer() {

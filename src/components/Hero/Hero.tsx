@@ -1,10 +1,10 @@
 import * as S from './Hero.styled';
 
 import heroApe from '../../assets/images/heroApe.png';
-import Image from '../Image/Image';
-import AccentText from '../AccentText/AccentText';
+import Image from '../common/Image/Image';
+import AccentText from '../common/AccentText/AccentText';
 import PALLETTE from '../../helpers/pallette';
-import MainText from '../MainText/MainText';
+import MainText from '../common/MainText/MainText';
 
 function Hero() {
   return (

@@ -148,8 +148,13 @@ export const Wrapper = styled.div`
   .slick-next:focus:before {
     opacity: 1;
     color: ${PALLETTE.accent};
-    outline: 1px solid ${PALLETTE.accent};
   }
+
+  .slick-prev:focus:before,
+  .slick-next:focus:before {
+    /* outline: 1px solid ${PALLETTE.accent}; */
+  }
+
   .slick-prev.slick-disabled:before,
   .slick-next.slick-disabled:before {
     opacity: 0.25;
