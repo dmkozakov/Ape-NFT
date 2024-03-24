@@ -28,6 +28,8 @@ function QuestionsList() {
         return (
           <QuestionsItem
             key={item.answer}
+            imgsrc={item.img}
+            imgalt={item.alt}
             active={isActive}
             num={idx + 1}
             question={item.question}

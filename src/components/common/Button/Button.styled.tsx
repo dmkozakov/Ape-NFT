@@ -1,5 +1,8 @@
 import styled from '@emotion/styled';
 import PALLETTE from '../../../helpers/pallette';
+import VIEWPORTS from '../../../helpers/viewports';
+
+const { tablet } = VIEWPORTS;
 
 export const StyledButton = styled.button`
   display: flex;
@@ -34,5 +37,9 @@ export const StyledButton = styled.button`
     & > span {
       color: ${PALLETTE.textLightMain};
     }
+  }
+
+  @media screen and (min-width: ${`${tablet}px`}) {
+    border-radius: 12px;
   }
 `;

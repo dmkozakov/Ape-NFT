@@ -1,5 +1,4 @@
 import AccentText from '../../common/AccentText/AccentText';
-import { IconArrow } from '../../MindMapSection/MindMap/MindMap.styled';
 import * as S from './LearnMoreCard.styled';
 
 function LearnMoreCard() {
@@ -9,7 +8,7 @@ function LearnMoreCard() {
       referrerPolicy="no-referrer"
       target="_blank"
     >
-      <IconArrow />
+      <S.IconArrow />
 
       <AccentText el="h3" fs="32px">
         Learn

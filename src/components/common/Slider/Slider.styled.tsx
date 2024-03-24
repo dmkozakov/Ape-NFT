@@ -1,5 +1,8 @@
 import styled from '@emotion/styled';
 import PALLETTE from '../../../helpers/pallette';
+import VIEWPORTS from '../../../helpers/viewports';
+
+const { tablet, desktop } = VIEWPORTS;
 
 export const Wrapper = styled.div`
   display: flex;
@@ -22,6 +25,14 @@ export const Wrapper = styled.div`
     -ms-touch-action: pan-y;
     touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
+
+    @media screen and (min-width: ${`${tablet}px`}) {
+      width: 604px;
+    }
+
+    @media screen and (min-width: ${`${desktop}px`}) {
+      width: 1032px;
+    }
   }
 
   .slick-list {
@@ -33,6 +44,7 @@ export const Wrapper = styled.div`
     margin: 0;
     padding: 0;
   }
+
   .slick-list:focus {
     outline: none;
   }
@@ -133,6 +145,10 @@ export const Wrapper = styled.div`
     border: none;
     outline: none;
     background: transparent;
+
+    @media screen and (min-width: ${`${desktop}px`}) {
+      bottom: -72px;
+    }
   }
   .slick-prev:hover,
   .slick-prev:focus,
@@ -184,6 +200,14 @@ export const Wrapper = styled.div`
 
   .slick-prev {
     left: 32px;
+
+    @media screen and (min-width: ${`${tablet}px`}) {
+      left: 218px;
+    }
+
+    @media screen and (min-width: ${`${desktop}px`}) {
+      left: 436px;
+    }
   }
 
   .slick-prev:before {
@@ -192,6 +216,14 @@ export const Wrapper = styled.div`
 
   .slick-next {
     right: 70px;
+
+    @media screen and (min-width: ${`${tablet}px`}) {
+      right: 274px;
+    }
+
+    @media screen and (min-width: ${`${desktop}px`}) {
+      right: 486px;
+    }
   }
 
   .slick-next:before {

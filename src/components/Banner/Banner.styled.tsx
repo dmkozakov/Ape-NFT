@@ -2,6 +2,9 @@ import styled from '@emotion/styled';
 import PALLETTE from '../../helpers/pallette';
 
 import IconCross from '../../assets/icons/cross.svg?react';
+import VIEWPORTS from '../../helpers/viewports';
+
+const { desktop } = VIEWPORTS;
 
 export const Banner = styled.div`
   display: flex;
@@ -15,6 +18,14 @@ export const Banner = styled.div`
 
   color: ${PALLETTE.textDarkMain};
   background-color: ${PALLETTE.accent};
+
+  @media screen and (min-width: ${`${desktop}px`}) {
+    height: 86px;
+
+    span {
+      font-size: 64px;
+    }
+  }
 `;
 
 export const Icon = styled(IconCross)`
@@ -27,4 +38,10 @@ export const Icon = styled(IconCross)`
   transform: translateY(4px);
 
   fill: ${PALLETTE.textLightMain};
+
+  @media screen and (min-width: ${`${desktop}px`}) {
+    margin: 0 36px;
+
+    transform: translateY(-4px);
+  }
 `;

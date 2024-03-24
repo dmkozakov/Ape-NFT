@@ -1,11 +1,11 @@
+import { InputHTMLAttributes, useEffect, useState } from 'react';
+import { toast } from 'react-toastify';
+import { SubmitHandler, useForm } from 'react-hook-form';
 import * as S from './Form.styled';
 
 import IconDiscord from '../../../assets/icons/discord.svg?react';
 import IconMetamask from '../../../assets/icons/metamask.svg?react';
 import PALLETTE from '../../../helpers/pallette';
-import { SubmitHandler, useForm } from 'react-hook-form';
-import { InputHTMLAttributes, useEffect, useState } from 'react';
-import { toast } from 'react-toastify';
 
 export type InputWithErrors = InputHTMLAttributes<'error'> & {
   error: boolean;

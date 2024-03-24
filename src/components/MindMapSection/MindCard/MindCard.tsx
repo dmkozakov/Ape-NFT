@@ -13,7 +13,7 @@ function MindCard({ title, description }: Props) {
       <MainText fs="12px" lh="1.16">
         {description}
       </MainText>
-      <AccentText el="h2" fs="32px">
+      <AccentText el="h3" fs="32px">
         {title}
       </AccentText>
     </S.Card>

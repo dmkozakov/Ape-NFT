@@ -1,10 +1,8 @@
 import * as S from './Hero.styled';
 
 import heroApe from '../../assets/images/heroApe.png';
-import Image from '../common/Image/Image';
 import AccentText from '../common/AccentText/AccentText';
 import PALLETTE from '../../helpers/pallette';
-import MainText from '../common/MainText/MainText';
 
 function Hero() {
   return (
@@ -16,40 +14,42 @@ function Hero() {
             <AccentText
               el="h1"
               fs="44px"
-              ls="0.01"
+              ls="0.01em"
               color={PALLETTE.textDarkMain}
             >
-              Yacht apes
+              Yacht <span>apes</span>
             </AccentText>
             <p>Apes aRe eveRywhere</p>
           </S.Heading>
-          <Image
+
+          <S.HeroImage
             src={heroApe}
             alt="A picture of an ape with glasses and a jacket"
-            width="216px"
-            height="284px"
           />
-          <S.HeroBtn type="button">
-            <AccentText
-              el="span"
-              fs="16px"
-              lh="1.18"
+
+          <S.Div>
+            <S.HeroBtn type="button">
+              <AccentText
+                el="span"
+                fs="16px"
+                lh="1.18"
+                color={PALLETTE.textDarkMain}
+              >
+                Meet apes
+              </AccentText>
+            </S.HeroBtn>
+
+            <S.HeroDescr
+              fs="12px"
+              lh="1.16"
+              mt="8px"
+              talign="center"
               color={PALLETTE.textDarkMain}
             >
-              Meet apes
-            </AccentText>
-          </S.HeroBtn>
-
-          <MainText
-            fs="12px"
-            lh="1.16"
-            mt="8px"
-            talign="center"
-            color={PALLETTE.textDarkMain}
-          >
-            Yacht Ape is a collection of unique digital apes that you can own in
-            NFT format
-          </MainText>
+              <span>Yacht Ape is a</span> collection of unique digital apes that
+              you can own in NFT format
+            </S.HeroDescr>
+          </S.Div>
         </S.Container>
       </S.HeroCard>
     </S.Wrapper>

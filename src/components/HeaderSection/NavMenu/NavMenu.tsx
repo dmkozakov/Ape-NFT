@@ -1,24 +1,28 @@
 import * as S from './NavMenu.styled';
-import IconDiscord from '../../../assets/icons/discord.svg?react';
-import IconX from '../../../assets/icons/x.svg?react';
 
-function NavMenu() {
-  const mobile = true;
+interface Props {
+  open: boolean;
+  isMobile: boolean;
+  onMenuClick: () => void;
+}
 
+function NavMenu({ open, isMobile, onMenuClick }: Props) {
   return (
     <nav>
       <S.List>
         <li>
-          <S.Btn mobile={mobile}>Menu</S.Btn>
+          <S.Btn mobile={open && isMobile} open={open} onClick={onMenuClick}>
+            {open ? 'Close' : 'Menu'}
+          </S.Btn>
         </li>
         <li>
           <S.Link
             href="https://discord.com/invite/bascdao"
             target="_blank"
             referrerPolicy="no-referrer"
-            mobile={mobile}
+            mobile={open && isMobile}
           >
-            <IconDiscord width="16" height="16" />
+            <S.IconDiscord />
           </S.Link>
         </li>
         <li>
@@ -26,9 +30,9 @@ function NavMenu() {
             href="https://boredapeyachtclub.com/"
             target="_blank"
             referrerPolicy="no-referrer"
-            mobile={mobile}
+            mobile={open && isMobile}
           >
-            <S.IconYacht width="16" height="16" />
+            <S.IconYacht />
           </S.Link>
         </li>
         <li>
@@ -36,9 +40,9 @@ function NavMenu() {
             href="https://twitter.com/BoredApeYC"
             target="_blank"
             referrerPolicy="no-referrer"
-            mobile={mobile}
+            mobile={open && isMobile}
           >
-            <IconX width="16" height="16" />
+            <S.IconX />
           </S.Link>
         </li>
       </S.List>
