@@ -11,7 +11,7 @@ const { tablet } = VIEWPORTS;
 
 export const Container = styled.div`
   position: absolute;
-  z-index: unset;
+  z-index: 1;
 
   transition: transform 250ms linear;
 

@@ -22,6 +22,8 @@ export const List = styled.ul`
 
   gap: 8px;
 
+  pointer-events: all;
+
   @media screen and (min-width: ${`${desktop}px`}) {
     gap: 16px;
   }

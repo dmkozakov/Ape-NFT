@@ -39,6 +39,10 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: start;
 
+  @media screen and (max-width: ${`${tablet - 1}px`}) {
+    pointer-events: none;
+  }
+
   @media screen and (min-width: ${`${tablet}px`}) {
     top: 66px;
     left: 28px;
@@ -56,6 +60,8 @@ export const Container = styled.div`
 
 export const Link = styled.a`
   text-decoration: none;
+
+  pointer-events: all;
 
   svg {
     fill: ${(props: Props) =>
